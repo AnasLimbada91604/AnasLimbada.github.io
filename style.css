@@ -272,10 +272,16 @@ nav a:hover::after {
 }
 
 .hero-btns {
-    flex-direction: column;
+    display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 20px;
+    flex-wrap: wrap;
     margin-bottom: 1rem;
+}
+
+.hero-social-icons {
+    display: flex;
+    gap: 12px;
 }
 
 .social-icons {
@@ -288,11 +294,11 @@ nav a:hover::after {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: var(--light-gray);
+    background-color: #2e2e2e;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--dark);
+    color: white;
     transition: var(--transition);
 }
 
